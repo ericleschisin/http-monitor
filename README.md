@@ -8,9 +8,13 @@ Build project with:
 ./build.sh
 ```
 
-run project with.
+quickly run project with.
 ```
 ./dev_up.sh
+```
+or provide alternate config file to python and mount to container
+```
+docker run -v $(pwd):/config monitor /config/alternate_config.yaml
 ```
 
 quickly connect to running container's standard out with.
