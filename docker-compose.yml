@@ -1,0 +1,6 @@
+
+services:
+  monitor:
+    container_name: monitor
+    image: monitor
+    restart: always
